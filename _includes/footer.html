@@ -1,0 +1,138 @@
+<!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<h2>Get in touch</h2>
+			<p>Want to learn more or get involved? Have a suggestion for something we can do better?  Reach out on our social media or send us and email to get in contact.</p>
+			<ul style="text-align:center" class="icons">
+				{% if site.twitter_url %}
+				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+				{% endif %}
+				{% if site.youtube_url %}
+				<li><a href="{{ site.youtube_url }}" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+				{% endif %}
+				{% if site.tiktok_url %}
+				<li><a href="{{ site.tiktok_url }}" class="icon alt " target="_blank"><img class="myicon" style="border-radius:100%;height:2em;padding:8px;transform: translate(0px, 11px);" src="/assets/css/tiktok.png" /></a></li>
+				{% endif %}
+				{% if site.facebook_url %}
+				<li><a href="{{ site.facebook_url }}" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+				{% endif %}
+				{% if site.instagram_url %}
+				<li><a href="{{ site.instagram_url }}" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% endif %}
+				{% if site.slack_url %}
+				<li><a href="{{ site.slack_url }}" class="icon alt fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+				{% endif %}
+				{% if site.linkedin_url %}
+				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+			</ul>
+			<!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted)  {document.forms['myForm'].style.display='none'; document.getElementById('myThanks').style.display='block'; }"></iframe>
+			<form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScR9nymDVWWK2Eza_kwH8jV54_elV8oNJhwjPR45GThJ80ebA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="entry.1334936582" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="email" name="entry.1352045854" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="entry.123592912" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" onclick=''/></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+			<div class="box" id="myThanks" style="display:none;height:400px;"><p><i>Thanks for your message! We'll get back to you right away.</i></p></div> -->
+
+		</section>
+		<section>
+			<section style="margin-top:30px;">
+				<div class="contact-method">
+					<a href="mailto:{{ site.email }}" style="text-decoration:underline;">
+						<span class="icon alt fa-envelope"></span>
+
+						<h4>Send us and email</h4>
+					</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+
+						<span class="icon alt fa-group"></span>
+						<h4>Join our <a href="{{ site.discord }}" style="text-decoration:underline;"><em>Discord</em></a> or <a href="{{ site.hylo }}" style="text-decoration:underline;"><em>Hylo</em></a></h4>
+
+
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<a href="/signup.html" style="text-decoration:underline;">
+						<span class="icon alt fa-share-alt"></span>
+						<h4>Subscribe to our mailing list</h4>
+					</a>
+
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<a href="https://forms.gle/rF4qWw3wzmWKztV58" style="text-decoration:underline;">
+						<span class="icon alt fa-lightbulb-o"></span>
+						<h4>Make a suggestion</h4>
+					</a>
+
+				</div>
+			</section>
+
+			<!-- <section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					{% if site.street_address %}
+					    {{ site.street_address }}<br />
+					{% endif %}
+					{% if site.city %}
+					    {{ site.city }},
+					{% endif %}
+					{% if site.state %}
+					    {{ site.state }}
+					{% endif %}
+					{% if site.zip_code %}
+					    {{ site.zip_code }}<br />
+					{% endif %}
+					{% if site.country %}
+					    {{ site.country }}
+					{% endif %}
+					</span>
+				</div>
+			</section> -->
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+
+			<ul class="copyright">
+				<li>All Content Freely Usable under Creative Commons <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">BY-SA-NC</a></li>
+				<li>Site Template: <a href="https://html5up.net" target="_blank">HTML5 UP</a> + <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>

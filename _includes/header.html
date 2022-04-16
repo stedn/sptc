@@ -1,0 +1,61 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}/" class="logo"><strong>Trail</strong><span>Cooperative</span> </a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        <!-- {% for page in site.pages %}
+		    {% if page.layout == "home" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %} -->
+		{% for page in site.html_pages %}
+		    {% if page.layout != "home" and page.nav-menu == true %}
+		    	{% if page.short_title %}
+		    	<li><a href="{{ page.url | absolute_url }}">{{ page.short_title }}</a></li>
+		    	{% else %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		        {% endif %}
+		    {% endif %}
+		{% endfor %}
+	</ul>
+		<div class="inner">
+			<ul class="icons">
+				{% if site.twitter_url %}
+				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+				{% endif %}
+				{% if site.youtube_url %}
+				<li><a href="{{ site.youtube_url }}" class="icon alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+				{% endif %}
+				{% if site.tiktok_url %}
+				<li><a href="{{ site.tiktok_url }}" class="icon alt " target="_blank"><img class="myicon" style="border-radius:100%;height:2em;padding:8px;transform: translate(0px, 11px);" src="/assets/css/tiktok.png" /></a></li>
+				{% endif %}
+				{% if site.instagram_url %}
+				<li><a href="{{ site.instagram_url }}" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% endif %}
+				{% if site.facebook_url %}
+				<li><a href="{{ site.facebook_url }}" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+				{% endif %}
+				{% if site.slack_url %}
+				<li><a href="{{ site.slack_url }}" class="icon alt fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+				{% endif %}
+				{% if site.linkedin_url %}
+				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+			</ul>
+		</div>
+
+
+	<!-- <ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul> -->
+</nav>

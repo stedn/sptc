@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--
+    Forty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+{% include forms.html %}
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+    <div class="inner">
+        <header class="major" style="width:100%">
+            <div>
+                <h1 id="title" style="display:flex;">{{ page.title }}</h1>
+                <div>
+                <strong id="descript" style="display:flex;justify-content: flex-end;">{{ page.description }}</strong>
+                </div>
+
+            </div>
+        </header>
+
+
+            <div id="mainmap" class="iframeholder image left"><iframe width="100%" id="map" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/en/map/{{ page.map }}?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+                <p><a href="//umap.openstreetmap.fr/en/map/{{ page.map }}">Full Screen</a>
+
+            </p>
+            </div>
+
+
+        <div id="blurbholder">
+            <a id="directions" style="display:none;" href="{{ page.directions }}">Directions</a>
+            {{ content }}
+            <button onclick="window.open('{{ page.group_forum }}', '_blank');" style="width:auto;">Group Forum</button>
+            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Journey</button>
+            <button onclick="document.getElementById('modform2').style.display='block'" style="width:auto;">Add Organization</button>
+
+
+        </div>
+    </div>
+</section>
+<div class="inner" style="clear:both;">
+    <section id="two" class="spotlights">
+        <h2 id="two_label" style="margin-top:5%;text-align:center;">Journeys</h2>
+    </section>
+
+
+
+
+</div>
+
+</div>
+
+    {% include footer.html %}
+
+
+<script>
+fetch("{{ page.spreadsheet_url }}")
+    .then(res => res.text())
+    .then(text => {
+        meta_result = JSON.parse(text.substr(47).slice(0, -2))
+        console.log(meta_result)
+        keys = []
+        for (var i = 0; i < 7; i += 1){
+          keys.push(meta_result.table.cols[i].label)
+        }
+        var data = {};
+        var log_data ={};
+        main_description = meta_result.table.rows[0].c[2].v;
+        main_content = meta_result.table.rows[0].c[5].v;
+        for (var i = 1; i < meta_result.table.rows.length; i += 1) {
+          if (meta_result.table.rows[i].c[0] != null){
+            to_push = {};
+            for (var j = 1; j < 7; j += 1){
+                if (meta_result.table.rows[i].c[j] != null){
+                    to_push[keys[j]]=meta_result.table.rows[i].c[j].v
+                }
+            }
+            data[meta_result.table.rows[i].c[0].v] = to_push
+          }else{
+            to_push = {};
+            journey_title = meta_result.table.rows[i].c[7].v
+            for (var j = 1; j < 5; j += 1){
+                if (meta_result.table.rows[i].c[j] != null){
+                    to_push[keys[j]]=meta_result.table.rows[i].c[j].v
+                }
+            }
+            if (!(journey_title in log_data)){
+                log_data[journey_title] = []
+            }
+            log_data[journey_title].push(to_push)
+          }
+        }
+        console.log(data)
+        console.log(log_data)
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        if (urlParams.has('journey')){
+            journey = urlParams.get('journey');
+            if (data[journey].zoom){
+                document.getElementById('mainmap').innerHTML=`
+                    <iframe width="100%" id="map" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/en/map/{{ page.map }}${data[journey].zoom}?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+                    <p><a href="//umap.openstreetmap.fr/en/map/{{ page.map }}">Full Screen</a>
+                </p>`
+            }
+
+            document.getElementById('title').textContent = data[journey].name;
+            document.getElementById('descript').innerHTML = `<a href="${window.location.href.split('?')[0]}">Back to {{ page.title }} hub map</a>`;
+            to_add = `<p>${data[journey].description}</p>`
+            // if (data[journey].image) {
+                // to_add = `<div class="image right"><img src="${data[journey].image}" /></div>` + to_add
+            // }
+            // if (data[journey].directions){
+            //     to_add = to_add+` <p>(<a id="directions" href="${data[journey].directions}">Directions</a>)</p>`
+            // }
+            to_add = to_add + `${data[journey].html}`
+            to_add = to_add + `<button onclick="document.querySelector('#two').scrollIntoView()" style="width:auto;">View Route Logs</button>
+            <button onclick="document.getElementById('modform3').style.display='block'" style="width:auto;">Add Route Log</button>`
+            document.getElementById('blurbholder').innerHTML = to_add;
+
+            document.getElementById('log_field').value = journey
+            const script = document.createElement('script')
+            script.src = 'assets/js/pa.js'
+            document.head.append(script)
+            const script2 = document.createElement('script')
+            script2.src = '//www.instagram.com/embed.js'
+            document.head.append(script2)
+            if (journey in log_data){
+                tmp_data = log_data[journey]
+                for (var i  = 0; i < tmp_data.length; i += 1){
+                    var newElement = document.createElement("section");
+                    tmp_directions = data[journey].directions
+                    if (tmp_data[i].directions != null){
+                        tmp_directions = tmp_data[i].directions
+                    }
+                    to_add = `
+                            <div class="content">
+                                <div class="inner">
+                                    <header class="major">
+                                        <h3>
+                                            <a href="${tmp_directions}">${tmp_data[i].name}</a>
+                                        </h3>
+                                    </header>
+                                        <a href="${tmp_directions}" class="button">Directions</a>
+                                    <p>${tmp_data[i].description}</p>
+
+                                </div>
+                            </div>`
+                    if (tmp_data[i].image) {
+                            to_add = `<a href="${tmp_directions}" class="image">
+                                <img src="${tmp_data[i].image}" alt="${tmp_data[i].image_desc}" data-position="center center" />
+                            </a>` + to_add
+                    }
+                    newElement.innerHTML = to_add
+                    document.getElementById("two").appendChild(newElement);
+                }
+                document.getElementById('two_label').textContent = "Route Logs"
+            } else {
+                document.getElementById('two').style.display = 'none';
+            }
+        } else{
+            document.getElementById('blurbholder').innerHTML = main_content;
+            document.getElementById('descript').innerHTML = main_description;
+            for (var i in data){
+                var newElement = document.createElement("section");
+                to_add = `
+                        <div class="content">
+                            <div class="inner">
+                                <header class="major">
+                                    <h3>
+                                        <a href="?journey=${i}">${data[i].name}</a>
+                                    </h3>
+                                </header>
+                                <p>${data[i].description}</p>
+                                <ul class="actions">
+                                    <li><a href="?journey=${i}" class="button">Learn more</a></li>
+                                </ul>
+                            </div>
+                        </div>`
+                if (data[i].image) {
+                        to_add = `<a href="?journey=${i}" class="image">
+                            <img src="${data[i].image}" alt="${data[i].image_desc}" data-position="center center" />
+                        </a>` + to_add
+                }
+                newElement.innerHTML = to_add
+                document.getElementById("two").appendChild(newElement);
+            }
+        }
+    })
+</script>
+<!-- <script src="{{ "assets/js/pa.js" | absolute_url }}"></script> -->
+</body>
+
+</html>

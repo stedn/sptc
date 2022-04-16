@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major" style="width:100%">
+			<div>
+				<h1 style="display:flex;">{{ page.title }}</h1>
+				<div>
+				{% if page.description %}
+					<strong style="display:flex;justify-content: flex-end;">{{ page.description }}</strong>
+				{% endif %}
+				</div>
+
+			</div>
+		</header>
+		{% if page.image %}
+			{% unless page.hide_image %}
+				<span class="image left"><img src="{{ page.image | relative_url}}" alt="" /></span>
+			{% endunless %}
+		{% endif %}
+
+
+		{{ content }}
+
+		{% assign rtiles = site.posts | where_exp: "item", "item.post_type == page.post_type" %}
+
+		<section id="three" class="spotlights">
+			<h2 style="margin-top:5%;text-align:center;">Related Posts</h2>
+
+		    {% for tile in rtiles reversed %}
+		    <section>
+		        <a href="{{ tile.url  | relative_url }}" class="image" style="max-height:300px;overflow:hidden;">
+		            <img src="{{ tile.image | relative_url }}" alt="{{ tile.title }}" />
+		        </a>
+		        <div class="content">
+		            <div class="inner">
+		                <header class="major">
+		                    <h3><a href="{{ tile.url  | relative_url }}">{{ tile.title }}</a></h3>
+		                </header>
+		                <p>{{ tile.description }}</p>
+		                <ul class="actions">
+		                    <li><a href="{{ tile.url  | relative_url }}" class="button">Learn more</a></li>
+		                </ul>
+		            </div>
+		        </div>
+		    </section>
+		    {% endfor %}
+		</section>
+	</div>
+</section>
+
+
+
+</div>
+
+
+
+    {% include footer.html %}
+
+</body>
+
+</html>
