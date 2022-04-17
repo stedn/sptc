@@ -1,7 +1,7 @@
 ---
 layout: page
 short_title: Join the Co-op
-title: Join the Trail Cooperative
+title: Join the Solarpunk Travell Co-op
 description: 'Become a member just by participating'
 image: assets/images/banner.jpg
 nav-menu: true
@@ -9,7 +9,7 @@ show_tile: false
 hide_image: true
 ---
 <div style="max-width:800px;text-align:center;margin:auto">
-<p>The Trail Co-op is launching this summer. We plan to have local trips running all over the country with the goal of diverting thousands of flights and building a community for a more regenerative world.</p>
+<p>The SolarPunk Travel Co-op is launching this summer. We plan to have local trips running all over the country with the goal of diverting thousands of flights and building a community for a more regenerative world.</p>
 
 <p>To stay informed as we launch, sign up for our email here.</p>
 <div style="text-align:center;" id="landing_buttons_wide">

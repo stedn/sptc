@@ -1,5 +1,5 @@
 # site settings
-title: TRAIL COOPERATIVE
+title: SOLARPUNK TRAVEL COOPERATIVE
 subtitle:
 email: thecooptrail@gmail.com
 description: 'regenerative travel community'
@@ -20,13 +20,13 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-facebook_url: https://www.facebook.com/TrailCoop
-instagram_url: https://www.instagram.com/trailcoop/
-linkedin_url: https://www.linkedin.com/company/trailcoop
+facebook_url: https://www.facebook.com/solarpunk_travel
+instagram_url: https://www.instagram.com/solarpunk_travel/
+linkedin_url: https://www.linkedin.com/company/solarpunk_travel
 slack_url:
-twitter_url: https://twitter.com/TrailCoop
+twitter_url: https://twitter.com/solarpunk_travel
 youtube_url: https://www.youtube.com/channel/UCjcZqjYIyFCo9SC0YaBy6Mg
-tiktok_url: https://www.tiktok.com/@trailcoop
+tiktok_url: https://www.tiktok.com/@solarpunk_travel
 
 # build settings
 markdown: kramdown
