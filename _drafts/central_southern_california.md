@@ -11,4 +11,4 @@ image: assets/images/pacific_northwest/central_california.jpg
 ---
 
 
-This Co-op Hub is only a suggested one, and hasn't been fully set up yet.  If you're interested in helping set it up or learning more, connect with us on <a href="https://discord.gg/6VbCwAcHwg">Discord</a> or <a href="https://www.hylo.com/groups/coop-trail">Hylo group</a>.
+This Co-op Hub is only a suggested one, and hasn't been fully set up yet.  If you're interested in helping set it up or learning more, connect with us on <a href="https://discord.gg/6VbCwAcHwg">Discord</a>.
