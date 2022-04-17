@@ -20,13 +20,13 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-facebook_url: https://www.facebook.com/solarpunk_travel
-instagram_url: https://www.instagram.com/solarpunk_travel/
-linkedin_url: https://www.linkedin.com/company/solarpunk_travel
+facebook_url: https://www.facebook.com/solarpunktravel
+instagram_url: https://www.instagram.com/solarpunktravel/
+linkedin_url: https://www.linkedin.com/company/solarpunktravel
 slack_url:
-twitter_url: https://twitter.com/solarpunk_travel
-youtube_url: https://www.youtube.com/channel/UCjcZqjYIyFCo9SC0YaBy6Mg
-tiktok_url: https://www.tiktok.com/@solarpunk_travel
+twitter_url: https://twitter.com/solarpunktravel
+youtube_url: https://www.youtube.com/c/https://www.youtube.com/c/SolarpunkTravel
+tiktok_url: https://www.tiktok.com/@solarpunktravel
 
 # build settings
 markdown: kramdown
