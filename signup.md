@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Sign up for our launch meeting and updates
+title: Sign up for updates and event announcements
 description:
 nav-menu: false
 show_tile: false
 ---
 
 <div style="max-width:800px;margin:auto;text-align:center;">
-<h5>Use this form to get updates on the co-op trail launch.</h5>
+<h5>Use this form to get updates on the co-op.</h5>
 </div>
 <!-- Begin Mailchimp Signup Form -->
 
