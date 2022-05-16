@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Corners of the Mouth, Natural Food Store
+title: 'Interview: Corners of the Mouth'
 description: Mendocino, CA
 post_type: coop
-highlight: false
 image: assets/images/pacific_northwest/corners-of-the-mouth.png
 coop_url: www.cornersofthemouth.com
 ---

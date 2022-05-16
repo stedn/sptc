@@ -4,7 +4,7 @@ short_title: Submit a trip
 title: Add to the community library
 description: Do you have an awesome bike-to-hike trip or an organization that could help our members travel regeneratively?  Add it to one of our Journey Hub maps to share your local knowledge with regenerative travelers.
 nav-menu: true
-show_tile: true
+show_tile: false
 hide_image: true
 image: assets/images/submit.png
 ---

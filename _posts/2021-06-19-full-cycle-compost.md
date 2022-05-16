@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Full Cycle Compost
+title: "Interview: Full Cycle Compost"
 description: Arcata, CA
 post_type: coop
-highlight: true
 hide_image: true
 image: assets/images/pacific_northwest/fullcycle.jpg
 coop_url:

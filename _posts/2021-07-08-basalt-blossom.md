@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Basalt Blossom
+title: "Interview: Basalt Blossom"
 description: Klickitat, WA
 post_type: coop
-highlight: true
 hide_image: true
 image: assets/images/pacific_northwest/basalt_blossom.png
 coop_url:

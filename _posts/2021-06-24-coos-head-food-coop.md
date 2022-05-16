@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Coos Head Food Co-op
+title: "Interview: Coos Head Food Co-op"
 description: Coos Bay, OR
 post_type: coop
-highlight: true
 hide_image: true
 image: assets/images/pacific_northwest/cooshead.png
 coop_url: coosheadfood.coop

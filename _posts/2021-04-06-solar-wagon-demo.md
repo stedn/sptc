@@ -3,6 +3,7 @@ layout: post
 title: The Solar Wagon
 description: Claire explains our homemade sustainable transportation
 hide_image: true
+post_type: update
 image: assets/images/ebike_trailer_claire.jpg
 ---
 

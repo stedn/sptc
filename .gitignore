@@ -5,7 +5,7 @@ _site/
 Gemfile.lock
 *.gem
 *.ipynb_checkpoints*
-code/maps.key
-code/*.gpx
-code/*.geojson
-code/*.csv
+_code/maps.key
+_code/*.gpx
+_code/*.geojson
+_code/*.csv

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Port Orford Food Co-op
+title: "Interview: Port Orford Food Co-op"
 description: Port Orford, OR
 post_type: coop
-highlight: false
 hide_image: true
 image: assets/images/pacific_northwest/portorford.jpg
 coop_url: www.portorfordcoop.com/

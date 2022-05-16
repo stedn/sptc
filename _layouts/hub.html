@@ -151,12 +151,18 @@ fetch("{{ page.spreadsheet_url }}")
                                         </h3>
                                     </header>
                                         <a href="${tmp_directions}" class="button">Directions</a>
-                                    <p>${tmp_data[i].description}</p>
+                                    `
+                    tmp_photo_link = tmp_directions
+                    if (tmp_data[i].social){
+                        to_add += `<a href="${tmp_data[i].social}" class="button">Photos</a>`
+                        tmp_photo_link = tmp_data[i].social
+                    }
+                    to_add += `<p>${tmp_data[i].description}</p>
 
                                 </div>
                             </div>`
                     if (tmp_data[i].image) {
-                            to_add = `<a href="${tmp_directions}" class="image">
+                            to_add = `<a href="${tmp_photo_link}" class="image">
                                 <img src="${tmp_data[i].image}" alt="${tmp_data[i].image_desc}" data-position="center center" />
                             </a>` + to_add
                     }

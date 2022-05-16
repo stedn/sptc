@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Journey Hubs
-description: Find cycling routes and ideas for regenerative travel based around local hub cities, including bike overnights, hiking, backpacking, bike-to-hike and volunteering.
+title: Routes and Resources
+description: Find routes and resources to plan your regenerative travel journeys.
 nav-menu: true
 show_tile: true
 hide_image: true

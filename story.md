@@ -1,11 +1,12 @@
 ---
 layout: page
-short_title: Mission
+short_title: Our Mission
 title: "Solarpunk Travel's Mission"
 description: "travel, don't pollute, do good"
 image: assets/images/work.gif
 hide_image: true
 nav-menu: true
+show_tile: false
 ---
 <img class="image left" src="https://64.media.tumblr.com/841a647501c4167913cf9cbcfca7361a/tumblr_paa6kkWLYD1wnn8hoo3_1280.jpg">
 <p>The Solarpunk Travel Coooperative aims to jumpstart a movement for <a href="regenerative-travel.html">regenerative travel</a>, which entails both an eco-friendly mode of transport as well as being more than consumers in the places we visit. Our vision is to create a nationwide movement of local bicycle- and train-based outdoor adventures that connect as many people as possible to the wilderness without exploiting people or the planet. Our goal is to demonstrate that adapting our lives to be more sustainable isn't about giving things up, it's about gaining a sense of adventure! Interested in this mission?</p>

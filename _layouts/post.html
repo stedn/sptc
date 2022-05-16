@@ -39,12 +39,12 @@
 
 		{{ content }}
 
-		{% assign rtiles = site.posts | where_exp: "item", "item.post_type == page.post_type" %}
+		{% assign rtiles = site.posts | where_exp: "item", "item.post_type == page.post_type and item.title != page.title" %}
 
 		<section id="three" class="spotlights">
 			<h2 style="margin-top:5%;text-align:center;">Related Posts</h2>
 
-		    {% for tile in rtiles reversed %}
+		    {% for tile in rtiles limit: 2 %}
 		    <section>
 		        <a href="{{ tile.url  | relative_url }}" class="image" style="max-height:300px;overflow:hidden;">
 		            <img src="{{ tile.image | relative_url }}" alt="{{ tile.title }}" />

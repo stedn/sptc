@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Artists' Co-op of Mendocino
+title: "Interview: Artists' Co-op of Mendocino"
 description: Mendocino, CA
 post_type: coop
-highlight: false
 hide_image: true
 image: assets/images/pacific_northwest/artists-coop-mendocino.jpg
 coop_url: www.artcoopmendocino.com
