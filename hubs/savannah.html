@@ -583,6 +583,9 @@ fetch("https://docs.google.com/spreadsheets/d/1PPCRva3qH_biUGHA_R2Lb4qJmxaNSvml1
         var log_data ={};
         main_description = meta_result.table.rows[0].c[2].v;
         main_content = meta_result.table.rows[0].c[5].v;
+        main_content += `<button onclick="window.open('https://discord.gg/6VbCwAcHwg', '_blank');" style="width:auto;">Group Forum</button>
+            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Journey</button>
+            <button onclick="document.getElementById('modform2').style.display='block'" style="width:auto;">Add Organization</button>`
         for (var i = 1; i < meta_result.table.rows.length; i += 1) {
           if (meta_result.table.rows[i].c[0] != null){
             to_push = {};
@@ -635,7 +638,7 @@ fetch("https://docs.google.com/spreadsheets/d/1PPCRva3qH_biUGHA_R2Lb4qJmxaNSvml1
 
             document.getElementById('log_field').value = journey
             const script = document.createElement('script')
-            script.src = 'assets/js/pa.js'
+            script.src = '/assets/js/pa.js'
             document.head.append(script)
             const script2 = document.createElement('script')
             script2.src = '//www.instagram.com/embed.js'
