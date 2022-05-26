@@ -11,7 +11,7 @@ image: assets/images/fun_us.jpg
 </style>
 
 <script async src="//www.instagram.com/embed.js"></script>
-<script src="assets/js/pa.js"></script>
+<script src="/assets/js/pa.js"></script>
 <script async src="https://www.tiktok.com/embed.js"></script>
 <p>After an amazing 3 months of travel, we had decided we were sure we wanted to continue on for a whole year.  We had no idea what was just around the corner, how much we learned on the way, and how much it made us want to continue even more. </p>
 

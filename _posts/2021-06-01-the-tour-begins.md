@@ -11,7 +11,7 @@ image: assets/images/banner.jpg
 </style>
 
 <script async src="//www.instagram.com/embed.js"></script>
-<script src="assets/js/pa.js"></script>
+<script src="/assets/js/pa.js"></script>
 <script async src="https://www.tiktok.com/embed.js"></script>
 <p>In the summer of 2021, we'll be starting to travel in a way that connects outdoor adventure with a vision for a better world.  To start on our journey, we've been building an interesting mode of travel and testing it out.  Read on to find out more. </p>
 

@@ -11,7 +11,7 @@ image: assets/images/pacific_northwest/columbia_gorge.jpg
 </style>
 
 <script async src="//www.instagram.com/embed.js"></script>
-<script src="assets/js/pa.js"></script>
+<script src="/assets/js/pa.js"></script>
 <script async src="https://www.tiktok.com/embed.js"></script>
 <p>This summer of 2021, we started on a life-changing tour, that turned out better than we could have ever expected.  Here are our travel logs from our first 3 months as solar-powered bicycle nomads. </p>
 
