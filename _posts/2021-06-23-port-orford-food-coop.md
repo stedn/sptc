@@ -13,5 +13,5 @@ A big co-op presence in a small 1300 person town, Port Orford Food Co-op was a g
 While we were there, we interviewed co-op volunteer worker Laurie about the fantastic community support that makes the Port Orford Co-op possible. And they have solar panels! A quick ticket into our hearts here on the Co-op Trail.
 
 <div class="iframe-wrapper">
-<iframe width="800" height="450" src="https://www.youtube.com/embed/a_PyTgyrW7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/BNiGDBaiUyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

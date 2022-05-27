@@ -228,8 +228,7 @@ This section of coastline felt like a truly perfect section for sustainable cycl
 
 From El Capitan State Beach it's 20 miles to Santa Barbara. You have to be on 1 for a bit but then you can take side streets on the outskirts of the metropolitan area.  We took a detour into Isla Vista to get some supplies at the Isla Vista Food Co-op for our time in the city. There is a bike path from UCSB onward. Santa Barbara had lots of bike paths and fun beaches with public restrooms.  We stayed with some of our friends, Tom and Rachael, who were kind enough to let us stay in their <a href="https://www.vrbo.com/777266">amazing rental near downtown Santa Barbara</a> and showed us a great time around town!
 
-On our way out of Santa Barbara, we interviewed the <a
-href="https://regen.coop/> Regenerative Landscaping Co-op</a>, a worker co-op landscaping firm dedicated to regenerative practices in their usage of water and carbon sequestration. It was very inspiring. I hope these ideas of water management spread far and fast. And yet again we learned more things about rainwater basin creation and about the usefulness of converting to the cooperative model from a traditional sole-proprietorship.
+On our way out of Santa Barbara, we interviewed the <a href="https://regen.coop/"> Regenerative Landscaping Co-op</a>, a worker co-op landscaping firm dedicated to regenerative practices in their usage of water and carbon sequestration. It was very inspiring. I hope these ideas of water management spread far and fast. And yet again we learned more things about rainwater basin creation and about the usefulness of converting to the cooperative model from a traditional sole-proprietorship.
 
 <div style="text-align:center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dKM3dbFDheo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
