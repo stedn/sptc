@@ -10,3 +10,9 @@ _code/*.gpx
 _code/*.geojson
 _code/*.csv
 _code/*.json
+_code/*.log
+_code/archive_geojson/
+_code/archive_gpx/
+_code/csv_dbs/
+_code/hub_gpx/
+
