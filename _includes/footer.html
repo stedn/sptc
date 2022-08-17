@@ -79,7 +79,7 @@
 			</section>
 			<section>
 				<div class="contact-method">
-					<a href="https://forms.gle/rF4qWw3wzmWKztV58" style="text-decoration:underline;">
+					<a href="#" onclick="document.getElementById('modform3').style.display='block'; return false;" style="text-decoration:underline;">
 						<span class="icon alt fa-lightbulb-o"></span>
 						<h4>Make a suggestion</h4>
 					</a>
@@ -127,6 +127,8 @@
 	</footer>
 
 </div>
+
+{% include forms.html %}
 
 <!-- Scripts -->
 	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>

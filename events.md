@@ -21,14 +21,17 @@ hide_image: true
     </div>
 </section>
 <h2 style="text-align:center;padding-top:0.2em;">Upcoming Events</h2>
-<section id="two" class="shrink">
 
+<section id="two" class="shrink"></section>
+
+<section style="clear:both;padding-top:1em;">
+    <p style="text-align:center;font-size: 20px;padding: 4px ;letter-spacing: 2px;color: #14171c;background: #e0f3db;font-weight:700;"> <i>Have an idea for an event we should spotlight? </i> <a href="#" onclick="document.getElementById('modform2').style.display='block'; return false;">Submit it here!</a></p>
 </section>
 
 <hr>
 
 <section id="three" class="spotlights-small" style="clear:both;">
-    <h2 style="text-align:center;">Past Events</h2>
+    <h3 style="text-align:center;">Past Events</h3>
 </section>
 
 
