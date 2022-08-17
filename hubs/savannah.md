@@ -1,14 +1,13 @@
 ---
 layout: hub
-title: Savannah, Georgia
-description: Under Construction
+title: Savannah
+description: Unceded Territory of the Mvskoke (Muscogee), Yamasee, and Guale
 group_forum: https://discord.gg/6VbCwAcHwg
-spreadsheet_url: https://docs.google.com/spreadsheets/d/1PPCRva3qH_biUGHA_R2Lb4qJmxaNSvml1GtOPMqhUNs/gviz/tq?tqx=out:json&sheet=Savannah
+spreadsheet_url: https://docs.google.com/spreadsheets/d/1krFtwpYnqe8T7mCaAVJzsqxe_CYDAIbQKwoLMMPZc3k/gviz/tq?tqx=out:json&sheet=savannah
 nav-menu: false
 show_tile: false
-hide_image: true
-image: assets/images/hubs/Savannah_Park_with_Fountain.jpg
-map: savannah_768878
+map: savannah_797288
+image: https://ridewithgps.com//photos/12773217/sq_thumb.jpg
 ---
-
-This hub is under construction.  You can submit updates with the buttons below.
+    
+    <p>blurbl</p>

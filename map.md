@@ -13,10 +13,10 @@ image: assets/images/hubmap_cool.png
 
 <p>We're building the Solarpunk Travel Co-op around regional hubs to help <a href="story.html">foster communities</a> dedicated to <a href="regenerative-travel.html">regenerative travel</a>. Click on a region for routes and resources on regenerative travel in that area.  To view a specific resource nationwide, check out our <a href="resources.html">resource maps page</a>. </p>
 
-<div class="iframeholder"><iframe width="100%" id="map" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/en/map/trail-cooperative-overview_684823?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe></div><p><a href="//umap.openstreetmap.fr/en/map/trail-cooperative-overview_684823">See full screen</a></p>
+<div class="iframeholder"><iframe width="100%" id="map" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/en/map/solarpunk-travel-hubs_796524?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe></div><p><a href="//umap.openstreetmap.fr/en/map/solarpunk-travel-hubs_796524">See full screen</a></p>
 
 <section id="two" class="spotlights">
-    <h2 style="margin-top:5%;text-align:center;">Trail Regions</h2>
+    <h2 style="margin-top:5%;text-align:center;">Travel Hubs</h2>
     {% for tile in mytiles reversed %}
     <section>
         <a href="{{ tile.url  | relative_url }}" class="image">

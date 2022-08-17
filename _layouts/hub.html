@@ -23,7 +23,7 @@
             <div>
                 <h1 id="title" style="display:flex;">{{ page.title }}</h1>
                 <div>
-                <strong id="descript" style="display:flex;justify-content: flex-end;">{{ page.description }}</strong>
+                <strong id="descript" style="display:flex;justify-content: flex-end;"><a href="/map">↰ Back to Overview Map</a></strong>
                 </div>
 
             </div>
@@ -117,7 +117,7 @@ fetch("{{ page.spreadsheet_url }}")
             }
 
             document.getElementById('title').textContent = data[journey].name;
-            document.getElementById('descript').innerHTML = `<a href="${window.location.href.split('?')[0]}">Back to {{ page.title }} hub map</a>`;
+            document.getElementById('descript').innerHTML = `<a href="${window.location.href.split('?')[0]}">↰ Back to {{ page.title }} Hub Map</a>`;
             to_add = `<p>${data[journey].description}</p>`
             // if (data[journey].image) {
                 // to_add = `<div class="image right"><img src="${data[journey].image}" /></div>` + to_add
@@ -178,7 +178,7 @@ fetch("{{ page.spreadsheet_url }}")
             }
         } else{
             document.getElementById('blurbholder').innerHTML = main_content;
-            document.getElementById('descript').innerHTML = main_description;
+            // document.getElementById('descript').innerHTML = main_description;
             for (var i in data){
                 var newElement = document.createElement("section");
                 to_add = `

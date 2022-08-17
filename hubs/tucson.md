@@ -1,23 +1,13 @@
 ---
 layout: hub
 title: Tucson
-description: Sonoran Desert
+description: Unceded Territory of the O&#8217;odham Jeweḍ, Sobaipuri, Tohono O&#8217;odham, and Hohokam
 group_forum: https://discord.gg/6VbCwAcHwg
-spreadsheet_url: https://docs.google.com/spreadsheets/d/1PPCRva3qH_biUGHA_R2Lb4qJmxaNSvml1GtOPMqhUNs/gviz/tq?tqx=out:json&sheet=Tucson
+spreadsheet_url: https://docs.google.com/spreadsheets/d/1krFtwpYnqe8T7mCaAVJzsqxe_CYDAIbQKwoLMMPZc3k/gviz/tq?tqx=out:json&sheet=tucson
 nav-menu: false
 show_tile: false
-map: tucson_701586
-image: assets/images/tucson.jpg
+map: tucson_797293
+image: https://ridewithgps.com//photos/10313834/sq_thumb.jpg
 ---
-
-<p>Tucson sits in the heart of the Sonoran Desert, a desert that's almost as lush, green, and full of life as any other habitat.  Touring this area provides wide open spaces, towering peaks, and verdant washes to explore.  In all the places we've been there really isn't any other place that feels quite like Tucson.</p>
-
-
-<h3>Ways to give back</h3>
-
-<ul>
-    <li><a href="https://watershedmg.org/event">Help the Water Management Group conserve water</a></li>
-    <li><a href="https://volunteer.aztrail.org/need/">Maintain trails with the Arizona Trail Association</a></li>
-</ul>
-
-<p>This hub is still a work in progress. Check back soon for more updates.</p>
+    
+    <p>blurbl</p><h3>Bike Camping Groups</h3><ul><li><a href='https://www.campfirecycling.com/events'>Campfire Cycling</a></li></ul><h3>Volunteer Orgs</h3><ul><li><a href='https://watershedmg.org/event'>Watershed Management</a></li><li><a href='https://volunteer.aztrail.org/need/'>Arizona Trail Association</a></li></ul>
