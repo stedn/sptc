@@ -137,7 +137,7 @@
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 20%;
+				width: 30%;
 
 				img {
 					border-radius: 0;
@@ -165,7 +165,7 @@
 				@include vendor('justify-content', 'center');
 				@include vendor('align-items', 'center');
 				@include padding(2em, 3em);
-				width: 80%;
+				width: 70%;
 
 				> .inner {
 					margin: 0 auto;
@@ -180,11 +180,11 @@
 		@include breakpoint(xlarge) {
 			> section {
 				> .image {
-					width: 20%;
+					width: 30%;
 				}
 
 				> .content {
-					width: 80%;
+					width: 70%;
 				}
 			}
 		}
@@ -202,6 +202,121 @@
 		}
 
 		@include breakpoint(medium) {
+			> section {
+
+				> .image {
+					width: 30%;
+					padding-top:10%;
+				}
+
+				> .content {
+					@include padding(3em, 2em);
+					width: 70%;
+				}
+			}
+		}
+
+		@include breakpoint(small) {
+			> section {
+				> .content {
+					@include padding(1em, 1em);
+				}
+			}
+		}
+	}
+
+
+
+	.shrink {
+		border-top: 0 !important;
+		max-height: 360px;
+		overflow-y: scroll;
+  		overflow-x: hidden;
+
+		& + * {
+			border-top: 0 !important;
+		}
+
+		> section {
+			@include vendor('display', 'flex');
+			@include vendor('flex-direction', 'row');
+			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+
+
+			> .image {
+				background-position: center center;
+				background-size: cover;
+				border-radius: 0;
+				display: block;
+				position: relative;
+				width: 30%;
+
+				img {
+					border-radius: 0;
+					display: block;
+					width: 100%;
+					padding:1em;
+				}
+
+				&:before {
+					background: transparentize(_palette(bg), 0.1);
+					content: '';
+					display: block;
+					height: 100%;
+					left: 0;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+			}
+
+			> .content {
+				@include vendor('display', 'flex');
+				@include vendor('flex-direction', 'column');
+				@include vendor('justify-content', 'center');
+				@include vendor('align-items', 'center');
+				@include padding(2em, 3em);
+				width: 70%;
+
+				> .inner {
+					margin: 0 auto;
+					max-width: 100%;
+					width: _size(inner);
+				}
+			}
+
+
+		}
+
+		@include breakpoint(xlarge) {
+			> section {
+				> .image {
+					width: 30%;
+				}
+
+				> .content {
+					width: 70%;
+				}
+			}
+		}
+
+		@include breakpoint(large) {
+			> section {
+				> .image {
+					width: 20%;
+				}
+
+				> .content {
+					width: 80%;
+				}
+			}
+		}
+
+		@include breakpoint(medium) {
+		max-height: 100%;
+		overflow: visible;
+
 			> section {
 
 				> .image {

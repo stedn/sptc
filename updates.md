@@ -19,7 +19,7 @@ hide_image: true
 </section>
 
 <!-- Two -->
-<section id="two" class="spotlights">
+<section id="two" class="spotlights-small">
     {% for tile in mytiles %}
     <section>
         {% if tile.post_type == "event" %}
