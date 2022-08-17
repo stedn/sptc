@@ -9,3 +9,4 @@ _code/maps.key
 _code/*.gpx
 _code/*.geojson
 _code/*.csv
+_code/*.json
