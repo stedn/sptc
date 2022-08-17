@@ -41,16 +41,15 @@
             <a id="directions" style="display:none;" href="{{ page.directions }}">Directions</a>
             {{ content }}
             <button onclick="window.open('{{ page.group_forum }}', '_blank');" style="width:auto;">Group Forum</button>
-            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Journey</button>
-            <button onclick="document.getElementById('modform2').style.display='block'" style="width:auto;">Add Organization</button>
+            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Resource/Log</button>
 
 
         </div>
     </div>
 </section>
 <div class="inner" style="clear:both;">
-    <section id="two" class="spotlights">
-        <h2 id="two_label" style="margin-top:5%;text-align:center;">Journeys</h2>
+    <section id="two" class="spotlights-small">
+        <h2 id="two_label" style="text-align:center;">Journeys</h2>
     </section>
 
 
@@ -78,8 +77,7 @@ fetch("{{ page.spreadsheet_url }}")
         main_description = meta_result.table.rows[0].c[2].v;
         main_content = meta_result.table.rows[0].c[5].v;
         main_content += `<button onclick="window.open('{{ page.group_forum }}', '_blank');" style="width:auto;">Group Forum</button>
-            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Journey</button>
-            <button onclick="document.getElementById('modform2').style.display='block'" style="width:auto;">Add Organization</button>`
+            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Resource/Log</button>`
         for (var i = 1; i < meta_result.table.rows.length; i += 1) {
           if (meta_result.table.rows[i].c[0] != null){
             to_push = {};
@@ -126,8 +124,8 @@ fetch("{{ page.spreadsheet_url }}")
             //     to_add = to_add+` <p>(<a id="directions" href="${data[journey].directions}">Directions</a>)</p>`
             // }
             to_add = to_add + `${data[journey].html}`
-            to_add = to_add + `<button onclick="document.querySelector('#two').scrollIntoView()" style="width:auto;">View Route Logs</button>
-            <button onclick="document.getElementById('modform3').style.display='block'" style="width:auto;">Add Route Log</button>`
+            to_add = to_add + `<button onclick="document.querySelector('#two').scrollIntoView()" style="width:auto;">View Journey Logs</button>
+            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Resource/Log</button>`
             document.getElementById('blurbholder').innerHTML = to_add;
 
             document.getElementById('log_field').value = journey
@@ -172,7 +170,7 @@ fetch("{{ page.spreadsheet_url }}")
                     newElement.innerHTML = to_add
                     document.getElementById("two").appendChild(newElement);
                 }
-                document.getElementById('two_label').textContent = "Route Logs"
+                document.getElementById('two_label').textContent = "Journey Logs"
             } else {
                 document.getElementById('two').style.display = 'none';
             }
@@ -197,7 +195,7 @@ fetch("{{ page.spreadsheet_url }}")
                         </div>`
                 if (data[i].image) {
                         to_add = `<a href="?journey=${i}" class="image">
-                            <img src="${data[i].image}" alt="${data[i].image_desc}" data-position="center center" />
+                            <img class="thumbnail" src="${data[i].image}" alt="${data[i].image_desc}" data-position="center center" />
                         </a>` + to_add
                 }
                 newElement.innerHTML = to_add
