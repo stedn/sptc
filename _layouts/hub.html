@@ -38,9 +38,10 @@
         <div id="blurbholder">
             <a id="directions" style="display:none;" href="{{ page.directions }}">Directions</a>
             {{ content }}
+            <div style="text-align:center;">
             <button onclick="window.open('{{ page.group_forum }}', '_blank');" style="width:auto;">Group Forum</button>
             <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Resource/Log</button>
-
+            </div>
 
         </div>
     </div>
@@ -74,8 +75,8 @@ fetch("{{ page.spreadsheet_url }}")
         var log_data ={};
         main_description = meta_result.table.rows[0].c[2].v;
         main_content = meta_result.table.rows[0].c[5].v;
-        main_content += `<button onclick="window.open('{{ page.group_forum }}', '_blank');" style="width:auto;">Group Forum</button>
-            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Resource/Log</button>`
+        main_content += `<div style="text-align:center;"><button onclick="window.open('{{ page.group_forum }}', '_blank');" style="width:auto;">Group Forum</button>
+            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Resource/Log</button></div>`
         for (var i = 1; i < meta_result.table.rows.length; i += 1) {
           if (meta_result.table.rows[i].c[0] != null){
             to_push = {};
@@ -122,11 +123,11 @@ fetch("{{ page.spreadsheet_url }}")
             //     to_add = to_add+` <p>(<a id="directions" href="${data[journey].directions}">Directions</a>)</p>`
             // }
             to_add = to_add + `${data[journey].html}`
-            to_add = to_add + `<button onclick="document.querySelector('#two').scrollIntoView()" style="width:auto;">View Journey Logs</button>
-            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Resource/Log</button>`
+            to_add = to_add + `<div style="text-align:center;"><button onclick="document.querySelector('#two').scrollIntoView()" style="width:auto;">View Journey Logs</button>
+            <button onclick="document.getElementById('modform1').style.display='block'" style="width:auto;">Add Resource/Log</button></div>`
             document.getElementById('blurbholder').innerHTML = to_add;
 
-            document.getElementById('log_field').value = journey
+            document.getElementById('journey_field').value = journey
             const script = document.createElement('script')
             script.src = '/assets/js/pa.js'
             document.head.append(script)
@@ -146,14 +147,14 @@ fetch("{{ page.spreadsheet_url }}")
                                 <div class="inner">
                                     <header class="major">
                                         <h3>
-                                            <a href="${tmp_directions}">${tmp_data[i].name}</a>
+                                            <a target="_blank" href="${tmp_directions}">${tmp_data[i].name}</a>
                                         </h3>
                                     </header>
-                                        <a href="${tmp_directions}" class="button">Directions</a>
+                                        <a target="_blank" href="${tmp_directions}" class="button">Directions</a>
                                     `
                     tmp_photo_link = tmp_directions
                     if (tmp_data[i].social){
-                        to_add += `<a href="${tmp_data[i].social}" class="button">Photos</a>`
+                        to_add += `<a target="_blank"  href="${tmp_data[i].social}" class="button">Photos</a>`
                         tmp_photo_link = tmp_data[i].social
                     }
                     to_add += `<p>${tmp_data[i].description}</p>
@@ -161,7 +162,7 @@ fetch("{{ page.spreadsheet_url }}")
                                 </div>
                             </div>`
                     if (tmp_data[i].image) {
-                            to_add = `<a href="${tmp_photo_link}" class="image">
+                            to_add = `<a target="_blank" href="${tmp_photo_link}" class="image">
                                 <img src="${tmp_data[i].image}" alt="${tmp_data[i].image_desc}" data-position="center center" />
                             </a>` + to_add
                     }
