@@ -18,7 +18,7 @@ hide_image: true
 </div>
 <br/>
 <p>
-The revolution in local regenerative travel happens one person at a time.  If you'd like to get involved helping the co-op build local outdoor adventures in your area, join our <a href="https://discord.gg/6VbCwAcHwg">Discord</a> group or just send us an <a href="mailto:solarpunktravel@gmail.com">email</a>.
+The revolution in local regenerative travel happens one person at a time.  If you'd like to get involved helping the co-op build local outdoor adventures in your area, join our <a href="https://www.reddit.com/r/solarpunktravel/">Online Forum</a> or just send us an <a href="mailto:solarpunktravel@gmail.com">email</a>.
 </p>
 
 <p>And remember, just by participating you become a member-owner of this co-op. We're a democratic organization working for a better future, so come be a part of something amazing.  Check out our <a href="information.html">information page</a> for more on how we are building this cooperative.</p>

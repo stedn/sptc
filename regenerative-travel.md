@@ -57,7 +57,7 @@ Lots of people have bike toured across the country and around the world. Everyon
 </p>
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@trailcooperative/video/6998002872877206789" data-video-id="6998002872877206789" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@trailcooperative" href="https://www.tiktok.com/@trailcooperative">@trailcooperative</a> <p><a title="ebike" target="_blank" href="https://www.tiktok.com/tag/ebike">##ebike</a> <a title="solar" target="_blank" href="https://www.tiktok.com/tag/solar">##solar</a> charging trailer <a title="tech" target="_blank" href="https://www.tiktok.com/tag/tech">##tech</a> for <a title="sustainabletravel" target="_blank" href="https://www.tiktok.com/tag/sustainabletravel">##sustainabletravel</a> <a title="touring" target="_blank" href="https://www.tiktok.com/tag/touring">##touring</a> <a title="diysolar" target="_blank" href="https://www.tiktok.com/tag/diysolar">##diysolar</a> <a title="diy" target="_blank" href="https://www.tiktok.com/tag/diy">##diy</a> <a title="cycling" target="_blank" href="https://www.tiktok.com/tag/cycling">##cycling</a></p> <a target="_blank" title="♬ original sound - SPTC" href="https://www.tiktok.com/music/original-sound-6998002589182790405">♬ original sound - SPTC</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-<p> Get in touch on <a href="https://discord.gg/6VbCwAcHwg">our Discord</a> if you'd like to learn more.</p>
+<p> Get in touch on <a href="https://www.reddit.com/r/solarpunktravel/">our forum</a> if you'd like to learn more.</p>
 
 
 <h2>What does it mean to contribute regeneratively to a community?</h2>

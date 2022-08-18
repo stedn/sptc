@@ -2,15 +2,15 @@
 layout: hub
 title: San Francisco
 description: "Lands of the Ohlone, Ramaytush, and Muwekma"
-group_forum: https://discord.gg/6VbCwAcHwg
+group_forum: https://www.reddit.com/r/solarpunktravel/
 spreadsheet_url: https://docs.google.com/spreadsheets/d/1krFtwpYnqe8T7mCaAVJzsqxe_CYDAIbQKwoLMMPZc3k/gviz/tq?tqx=out:json&sheet=san_francisco
 nav-menu: false
 show_tile: false
 map: san-francisco_797298
 image: https://ridewithgps.com//photos/11687792/sq_thumb.jpg
 ---
-    
+
     <p>The San Francisco Hub occupies the ancestral, traditional and contemporary lands of the Ohlone, Ramaytush, and Muwekma.  We enjoy today what the indigenous people protected and continue to protect, and we remember to be grateful.</p>
-    
+
     <p>Here are some resources to help you travel lightly and well.</p>
     <h3>Bike Camping Groups</h3><ul><li><a href='https://www.meetup.com/norcal-biketouring/'>NorCal Touring</a></li></ul><h3>Outdoor Volunteer Orgs</h3><p><i>This hub doesn't yet have any outdoor volunteering groups listed.  If you know of one in this area, help us out by <a onclick="document.getElementById('modform1').style.display='block'" href='#'>submitting a link</a> to their site!</i></p>

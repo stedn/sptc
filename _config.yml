@@ -12,7 +12,6 @@ state:
 zip_code:
 country:
 phone:
-discord: https://discord.gg/6VbCwAcHwg
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
