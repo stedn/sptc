@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Update: A Wild(fire) Time in NM"
+title: "A Wild(fire) Time in NM"
 description: "Facing off climate wildfires as our inaugural tour comes to an end"
 post_type: update
 hide_image: true

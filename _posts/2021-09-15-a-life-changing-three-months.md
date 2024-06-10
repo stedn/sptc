@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Update: Our First Pacific Northwest Tour"
+title: "Our First Pacific Northwest Tour"
 description: "A Life Changing Three Months"
 post_type: update
 image: assets/images/pacific_northwest/columbia_gorge.jpg

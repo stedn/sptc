@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interview: Port Orford Food Co-op"
+title: "Port Orford Food Co-op Interview"
 description: Port Orford, OR
 post_type: coop
 hide_image: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Interview: Corners of the Mouth'
+title: 'Corners of the Mouth Interview'
 description: Mendocino, CA
 post_type: coop
 image: assets/images/pacific_northwest/corners-of-the-mouth.png

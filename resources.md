@@ -1,12 +1,12 @@
 ---
 layout: post
 short_title: Resources
-title: 'Travel Resources'
-description: "If you're looking to plan a bike tour or local trip, we've complied useful resources to help make your journey regenerative. This includes community bike shops, used gear stores, food co-ops and hiker/biker camps."
+title: 'Sustainable Travel Resources'
+description: "If you're looking to plan a bike tour or local trip, we've complied useful resources to help make your journey regenerative."
 image: assets/images/bike-coop-map.png
 hide_image: true
-nav-menu: false
-show_tile: false
+nav-menu: true
+show_tile: true
 ---
 
 {% assign mytiles = site.html_pages | where_exp: "item", "item.map == true" %}

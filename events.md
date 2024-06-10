@@ -3,8 +3,9 @@ title: Trips and Events
 layout: page
 description: 'Find a cycle tour, backpacking trip, or solarpunk social near you'
 image: assets/images/fun_us_small.jpg
-nav-menu: true
+nav-menu: false
 hide_image: true
+show_tile: false
 ---
 
 {% assign mytiles = site.posts | where_exp: "item", "item.post_type == 'event'" %}

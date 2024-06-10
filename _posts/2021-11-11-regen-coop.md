@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interview: Regenerative Landscaping Alliance"
+title: "Regenerative Landscaping Alliance Interview"
 description: Santa Barbara, CA
 post_type: coop
 image: assets/images/pacific_northwest/regen_title.png

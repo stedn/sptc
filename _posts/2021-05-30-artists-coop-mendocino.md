@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interview: Artists' Co-op of Mendocino"
+title: "Artists' Co-op of Mendocino Interview"
 description: Mendocino, CA
 post_type: coop
 hide_image: true

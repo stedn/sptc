@@ -1,8 +1,9 @@
 ---
-title: Updates and Interviews
+title: Solarpunk Postcards
+short_title: Blog
 layout: page
-description: 'Find out the latest about Solarpunk Travel and interviews with other co-ops.'
-image: assets/images/pacific_northwest/frontstreet0.jpg
+description: 'Our blog for the latest in Solarpunk Travel'
+image: assets/images/fun_us_small.jpg
 nav-menu: true
 hide_image: true
 ---

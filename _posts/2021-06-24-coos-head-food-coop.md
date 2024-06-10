@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interview: Coos Head Food Co-op"
+title: "Coos Head Food Co-op Interview"
 description: Coos Bay, OR
 post_type: coop
 hide_image: true

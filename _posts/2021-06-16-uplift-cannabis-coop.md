@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interview: Uplift Cannabis Co-op"
+title: "Uplift Cannabis Co-op Interview"
 description: Petrolia, CA
 post_type: coop
 hide_image: true

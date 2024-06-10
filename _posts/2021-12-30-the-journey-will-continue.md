@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Update: The Journey Will Continue!"
+title: "The Journey Will Continue!"
 description: "San Franciso, Big Sur, Santa Barbara"
 post_type: update
 image: assets/images/fun_us.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interview: Full Cycle Compost"
+title: "Full Cycle Compost Interview"
 description: Arcata, CA
 post_type: coop
 hide_image: true

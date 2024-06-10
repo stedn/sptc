@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interview: Basalt Blossom"
+title: "Basalt Blossom Interview"
 description: Klickitat, WA
 post_type: coop
 hide_image: true

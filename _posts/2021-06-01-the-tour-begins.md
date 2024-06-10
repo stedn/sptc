@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Update: Preparing for our Inaugural Tour"
+title: "Preparing for our Inaugural Tour"
 description: building and testing our solar ebike
 post_type: update
 image: assets/images/banner.jpg

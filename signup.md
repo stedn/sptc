@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Sign up for updates and event announcements
+title: Sign up for updates and postcards
+short_title: Newsletter
 description:
-nav-menu: false
+nav-menu: true
 show_tile: false
 ---
 
 <div style="max-width:800px;margin:auto;text-align:center;">
-<h5>Use this form to get updates on the co-op.</h5>
+<h5>Use this form to get updates on everything solarpunk travel.</h5>
 </div>
 <!-- Begin Mailchimp Signup Form -->
 

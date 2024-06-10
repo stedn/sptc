@@ -13,7 +13,7 @@
   }
 
   #landing_buttons_wide{
-  	@include breakpoint(xsmall) {
+  	@include breakpoint(small) {
   		display:none;
   	}
   	display:block;
@@ -24,7 +24,7 @@
   }
 
   #landing_buttons_narrow{
-  	@include breakpoint(xsmall) {
+  	@include breakpoint(small) {
   		display:inline;
   	}
   	display:none;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Update: Winter in the Desert"
+title: "Winter in the Desert"
 description: "Tucson to Albuquerque"
 post_type: update
 image: assets/images/work.gif
