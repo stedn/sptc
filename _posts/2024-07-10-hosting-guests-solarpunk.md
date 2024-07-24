@@ -1,4 +1,11 @@
-# Hosting Guests for Free: Mutual Aid in Solarpunk Travel
+---
+layout: post
+title: "Mutual Aid in Solarpunk Travel"
+description: "How and Why We Host Guests for Free"
+post_type: update
+hide_image: true
+image: assets/images/2022/warmshower.jpg
+--- 
 
 In my journey through alternative travel and community building, hosting guests for free has become a meaningful way to connect with others and contribute to a more sustainable world. Platforms like BeWelcome, Couchers.org, and Warmshowers offer more than just a place to stay—they embody the spirit of mutual aid and sustainable hospitality.
 

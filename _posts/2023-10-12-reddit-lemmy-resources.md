@@ -1,6 +1,13 @@
-# Embracing Community: Solarpunk Travel's Online Initiatives
+---
+layout: post
+title: "Solarpunk Travel's Online Initiatives"
+description: "Reddit and Lemmy online resources"
+post_type: update
+hide_image: true
+image: assets/images/2022/reddit.jpg
+---
 
-At Solarpunk Travel, we're dedicated to promoting sustainable and enriching travel experiences that align with the principles of solarpunk—a movement envisioning a future where technology and nature coexist harmoniously. As part of our commitment to fostering community and sharing insights, we've launched online platforms on Reddit and the Lemmy instance slrpnk.net. Here’s why these initiatives are integral to our mission:
+At Solarpunk Travel, we're dedicated to promoting sustainable and enriching travel experiences that align with the principles of solarpunk—a movement envisioning a future where technology and nature coexist harmoniously. As part of our commitment to fostering community and sharing insights, we've launched online platforms on [Reddit](https://www.reddit.com/r/SolarpunkTravel/) and the Lemmy instance [slrpnk.net](https://slrpnk.net/c/solarpunktravel). Here’s why these initiatives are integral to our mission:
 
 ## Building a Global Network
 
