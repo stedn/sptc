@@ -31,3 +31,6 @@ markdown: kramdown
 
 sass:
   style: compressed
+  # the vendored HTML5UP theme scss predates modern Dart Sass; these are
+  # pre-existing deprecation warnings from the theme itself, not new code
+  silence_deprecations: [import, color-functions, global-builtin, slash-div, elseif, new-global]

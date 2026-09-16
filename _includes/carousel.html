@@ -1,0 +1,17 @@
+{% assign _carousel_images = include.images | split: "," %}
+<div class="post-carousel">
+	<div class="post-carousel-track">
+		{% for _carousel_img in _carousel_images %}
+		<div class="post-carousel-slide"><img src="{{ _carousel_img | strip | relative_url }}" alt="{{ include.alt | default: '' }}" /></div>
+		{% endfor %}
+	</div>
+	{% if _carousel_images.size > 1 %}
+	<button type="button" class="post-carousel-prev" aria-label="Previous image">&#10094;</button>
+	<button type="button" class="post-carousel-next" aria-label="Next image">&#10095;</button>
+	<div class="post-carousel-dots">
+		{% for _carousel_img in _carousel_images %}
+		<span class="post-carousel-dot"></span>
+		{% endfor %}
+	</div>
+	{% endif %}
+</div>

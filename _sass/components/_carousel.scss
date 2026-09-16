@@ -1,0 +1,93 @@
+.post-carousel {
+	position: relative;
+	max-width: 33%;
+	margin: 1.5em auto;
+	overflow: hidden;
+	border-radius: 4px;
+
+	@include breakpoint(small) {
+		max-width: 100%;
+	}
+
+	.post-carousel-track {
+		display: flex;
+		transition: transform 0.3s ease;
+	}
+
+	.post-carousel-slide {
+		flex: 0 0 100%;
+
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	.post-carousel-prev,
+	.post-carousel-next {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		background: rgba(0, 0, 0, 0.5);
+		color: #fff;
+		border: none;
+		width: 2.2em;
+		height: 2.2em;
+		line-height: 2.2em;
+		text-align: center;
+		border-radius: 100%;
+		cursor: pointer;
+		font-size: 1em;
+		z-index: 2;
+		padding: 0;
+
+		&:hover {
+			background: rgba(0, 0, 0, 0.75);
+		}
+	}
+
+	.post-carousel-prev {
+		left: 0.6em;
+	}
+
+	.post-carousel-next {
+		right: 0.6em;
+	}
+
+	.post-carousel-dots {
+		position: absolute;
+		bottom: 0.7em;
+		left: 0;
+		right: 0;
+		display: flex;
+		justify-content: center;
+		gap: 0.5em;
+		z-index: 2;
+	}
+
+	.post-carousel-dot {
+		width: 0.6em;
+		height: 0.6em;
+		border-radius: 100%;
+		background: rgba(255, 255, 255, 0.6);
+		cursor: pointer;
+
+		&.active {
+			background: #fff;
+		}
+	}
+}
+
+// Center standalone post images and Instagram embeds, matching the
+// centered treatment older posts got by hand with text-align:center wrappers.
+#one .inner > p > img:only-child {
+	display: block;
+	margin: 0 auto;
+}
+
+// Instagram's embed.js replaces the blockquote with an <iframe class="instagram-media">
+// after load, so this can't be scoped to the blockquote tag.
+.instagram-media {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
