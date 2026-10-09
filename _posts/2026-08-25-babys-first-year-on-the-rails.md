@@ -13,15 +13,15 @@ We got one more reason to love safe streets: we had a baby. Travel slowed down f
 
 At six weeks old, baby hiking began. We started hitting our local trails, half exercise for us and half preparation for the baby camping trip we already knew, somewhat ambitiously, that we wanted to attempt later in the year. Nobody in those trails knew they were looking at a six week old on her first hike, and honestly it felt a little bit like sneaking something past the universe.
 
-{% include carousel.html images="assets/images/2026/DTsyKWBFLb0_2.jpg,assets/images/2026/DTsyKWBFLb0_3.jpg" alt="First baby hikes" %}
+{% include carousel.html images="assets/images/2026/DTsyKWBFLb0_2.jpg,assets/images/2026/DTsyKWBFLb0_3.jpg,assets/images/2026/DTsyKWBFLb0_4.jpg,assets/images/2026/DTsyKWBFLb0_5.jpg" alt="First baby hikes" %}
 
 ## Baby's first public transit
 
-A week later came baby's first real public transit trip: the ferry from Oakland to San Francisco. We won't pretend it was stress free. Our little one was happy and easy going the whole time, but it's hard not to worry about noise, germs, and turbulence when you're out with a newborn for the first time, turning every ordinary sound on the boat into a potential catastrophe in your head. Call it exposure therapy for a couple of new parents.
+A week later came baby's first real public transit trip: the [ferry](https://sanfranciscobayferry.com/) from Oakland to San Francisco. We won't pretend it was stress free. Our little one was happy and easy going the whole time, but it's hard not to worry about noise, germs, and turbulence when you're out with a newborn for the first time, turning every ordinary sound on the boat into a potential catastrophe in your head. Call it exposure therapy for a couple of new parents.
 
 {% include carousel.html images="assets/images/2026/DUBX4LaFLu3_2.jpg,assets/images/2026/DUBX4LaFLu3_3.jpg" alt="Baby's first ferry ride" %}
 
-By the time we made the same trip again a few weeks later, it had gotten dramatically easier, easy enough that we actually wrote down the route for ourselves so we'd stop relearning it every time. Drive to the Oakland ferry terminal, park in the garage two blocks away, board the ferry, and validate the parking ticket at the little kiosk up front. Hang out in the ferry building for a bit if the timing works out. Then take the F streetcar down the Embarcadero to whichever tourist stop sounds good that day, we're partial to the sea lions, the Alcatraz views, and the Musée Mécanique. Reverse the whole thing to get home. The one genuinely absurd part of the system is that we still have to drive to the ferry in the first place, since it validates parking but doesn't reimburse actual transit fares, a small bureaucratic gap that makes zero sense and that we'd love for the ferry system to fix someday. Getting a baby into San Francisco by public transit turned out to be breathtaking and nostalgic and honestly kind of fun once we had the basics down. We could roll the stroller straight on, and the ride was smooth enough that we could take her out and play. It was less stressful than sitting in traffic on the Bay Bridge with a baby screaming in the back seat would have been, by a wide margin.
+By the time we made the same trip again a few weeks later, it had gotten dramatically easier, easy enough that we actually wrote down the route for ourselves so we'd stop relearning it every time. Drive to the Oakland ferry terminal, park in the garage two blocks away, board the ferry, and validate the parking ticket at the little kiosk up front. Hang out in the ferry building for a bit if the timing works out. Then take the [F streetcar](https://www.sfmta.com/getting-around/muni/routes-stops/f) down the Embarcadero to whichever tourist stop sounds good that day, we're partial to the sea lions, the Alcatraz views, and the [Musée Mécanique](https://www.museemechanique.org/). Reverse the whole thing to get home. The one genuinely absurd part of the system is that we still have to drive to the ferry in the first place, since it validates parking but doesn't reimburse actual transit fares, a small bureaucratic gap that makes zero sense and that we'd love for the ferry system to fix someday. Getting a baby into San Francisco by public transit turned out to be breathtaking and nostalgic and honestly kind of fun once we had the basics down. We could roll the stroller straight on, and the ride was smooth enough that we could take her out and play. It was less stressful than sitting in traffic on the Bay Bridge with a baby screaming in the back seat would have been, by a wide margin.
 
 {% include ig-embed.html url="https://www.instagram.com/reel/DVd-iP-iEFO/" %}
 
@@ -29,7 +29,7 @@ By the time we made the same trip again a few weeks later, it had gotten dramati
 
 Then came the trip that taught us the most, and gave us a new favorite word.
 
-We found a step-by-step way to get to and around the Tahoe area entirely by train, bus, and local transit, no car required, baby included, threading together an Amtrak leg with local Sierra Nevada transit all the way into Truckee.
+We found a step-by-step way to get to and around the Tahoe area entirely by train, bus, and local transit, no car required, baby included, threading together the [California Zephyr](https://www.amtrak.com/california-zephyr-train) with local Sierra Nevada transit all the way into Truckee.
 
 {% include ig-embed.html url="https://www.instagram.com/reel/DXdpmsfiEMk/" %}
 
@@ -49,11 +49,11 @@ With the Tahoe trip behind us, camping felt like the natural next step, even tho
 
 We officially survived our first overnight in a tent with a six month old. It wasn't easy, and yes we brought the entire pack-n-play along for the ride, no minimalist packing lists this time around, but it was actually a really lovely time, minus the sleep, or lack thereof. We found ourselves genuinely curious afterward how other parents handled that exact milestone, the first night in a tent, since nobody seems to talk about it much beyond gear reviews. It set us up wanting more adventures for the rest of the summer regardless.
 
-{% include carousel.html images="assets/images/2026/DZTicwwmM5W_2.jpg,assets/images/2026/DZTicwwmM5W_3.jpg" alt="First tent overnight" %}
+{% include carousel.html images="assets/images/2026/DZTicwwmM5W_2.jpg,assets/images/2026/DZTicwwmM5W_3.jpg,assets/images/2026/DZTicwwmM5W_4.jpg,assets/images/2026/DZTicwwmM5W_5.jpg,assets/images/2026/DZTicwwmM5W_6.jpg" alt="First tent overnight" %}
 
 And most recently: multi-night camping in the redwoods, with friends, with cooking, with tabletop games around the fire. We'll admit this one leaned car camping rather than transit, hauling that much gear and that much baby felt like more than we wanted to test our car-free streak against just yet, and we've made peace with that. At seven months, we're finally starting to feel normal again out there. We switched from the pack-n-play in the tent to co-sleeping, which made a world of difference overnight. Still some adjustments to work out, but it's gone from stressful to genuinely refreshing. Summer's off to a fun start.
 
-{% include carousel.html images="assets/images/2026/DabdCiZgS3__2.jpg,assets/images/2026/DabdCiZgS3__3.jpg" alt="Multi-night camping" %}
+{% include carousel.html images="assets/images/2026/DabdCiZgS3__2.jpg,assets/images/2026/DabdCiZgS3__3.jpg,assets/images/2026/DabdCiZgS3__4.jpg,assets/images/2026/DabdCiZgS3__5.jpg,assets/images/2026/DabdCiZgS3__6.jpg,assets/images/2026/DabdCiZgS3__7.jpg" alt="Multi-night camping" %}
 
 ## A full day on the train: Berkeley to Santa Barbara
 

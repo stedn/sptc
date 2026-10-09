@@ -34,3 +34,6 @@ sass:
   # the vendored HTML5UP theme scss predates modern Dart Sass; these are
   # pre-existing deprecation warnings from the theme itself, not new code
   silence_deprecations: [import, color-functions, global-builtin, slash-div, elseif, new-global]
+
+# source-only files that shouldn't be published
+exclude: [media, _code, _archive, instagram_posts.json, export_social_posts.py, README.md, LICENSE.md, forty_jekyll_theme.gemspec, Gemfile, Gemfile.lock]
